@@ -1,0 +1,9 @@
+{
+  "name": "mda-softech-solutions",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "vite", "build": "vite build", "preview": "vite preview", "start": "node --env-file=.env server.js"},
+  "dependencies": {"cors": "^2.8.5", "express": "^4.21.2", "mongoose": "^8.9.5", "react": "^18.3.1", "react-dom": "^18.3.1", "react-router-dom": "^6.28.1"},
+  "devDependencies": {"@vitejs/plugin-react": "^4.3.4", "vite": "^6.0.7"}
+}
